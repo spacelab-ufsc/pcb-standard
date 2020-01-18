@@ -1,0 +1,16 @@
+^Soldermask^^Dielectric^3.3^13^^^^^^^^
+1^Signal^Top^Conductive^^^35^200^200^0.51^51.48^90.48^^
+^Core^^Dielectric^4.3^130^^^^^^^^
+2^Plane^GND^Conductive^^^35^^^^^^^
+^Prepreg^^Dielectric^4.3^1200^^^^^^^^
+3^Plane^VCC^Conductive^^^35^^^^^^^
+^Core^^Dielectric^4.3^130^^^^^^^^
+4^Signal^Bottom^Conductive^^^35^200^200^0.51^51.48^90.48^^
+^Soldermask^^Dielectric^3.3^13^^^^^^^^
+um
+90ohm^200^200^0.51^51.48^90.48^
+90ohm^200^200^0.51^51.48^90.48^
+100ohm^200^160^0.43^57.34^100.25^
+100ohm^200^160^0.43^57.34^100.25^
+Via 1^1^4^203.2^50.8^False^PTH
+*

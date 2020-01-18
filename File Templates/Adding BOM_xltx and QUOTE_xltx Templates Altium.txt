@@ -1,0 +1,3 @@
+Copy the Template BOM.xltx and the Template QUOTE files to:
+
+C:\Users\Public\Documents\Altium\AD19\Templates
