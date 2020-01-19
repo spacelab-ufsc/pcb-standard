@@ -15,13 +15,13 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=_PCB_Cubesat_4L - Job.OutJob
+Name=Job.OutJob
 Description=
-TargetOutputMedium=2-BOARD PRINTS
+TargetOutputMedium=6-QUOTE
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Virtual Printer
+TargetPrinter=Canon E480 series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -128,7 +128,7 @@ PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 Configuration5_Name1=ColumnNameFormat
 Configuration5_Item1=CaptionAsName
 Configuration5_Name2=General
-Configuration5_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=True|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=C:\Users\klebe\Google Drive\Payload-XL\hw\library\Template BOM.xltx|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=950|FormHeight=661|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
+Configuration5_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=True|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=C:\Users\Public\Documents\Altium\AD19\Templates\Template BOM.xltx|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=950|FormHeight=661|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
 Configuration5_Name3=GroupOrder
 Configuration5_Item3=Comment=True|Fitted=True
 Configuration5_Name4=OutputConfigurationParameter1
@@ -183,7 +183,7 @@ OutputName8=Top Print
 OutputCategory8=Documentation
 OutputDocumentPath8=
 OutputVariantName8=
-OutputEnabled8=1
+OutputEnabled8=0
 OutputEnabled8_OutputMedium1=0
 OutputEnabled8_OutputMedium2=0
 OutputEnabled8_OutputMedium3=1
@@ -201,7 +201,7 @@ OutputName9=Bottom Print
 OutputCategory9=Documentation
 OutputDocumentPath9=
 OutputVariantName9=
-OutputEnabled9=1
+OutputEnabled9=0
 OutputEnabled9_OutputMedium1=0
 OutputEnabled9_OutputMedium2=0
 OutputEnabled9_OutputMedium3=2
@@ -219,7 +219,7 @@ OutputName10=Final Artwork Prints
 OutputCategory10=Fabrication
 OutputDocumentPath10=
 OutputVariantName10=
-OutputEnabled10=1
+OutputEnabled10=0
 OutputEnabled10_OutputMedium1=0
 OutputEnabled10_OutputMedium2=0
 OutputEnabled10_OutputMedium3=3
@@ -364,11 +364,11 @@ PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 Configuration11_Name1=OutputConfigurationParameter1
 Configuration11_Item1=tToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=5|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressTrailingZeroes
 OutputType12=BOM_PartType
-OutputName12=QUOTE 100
+OutputName12=QUOTE 10
 OutputCategory12=Report
 OutputDocumentPath12=[ActiveBOM Document]
 OutputVariantName12=BT1A8
-OutputEnabled12=0
+OutputEnabled12=1
 OutputEnabled12_OutputMedium1=0
 OutputEnabled12_OutputMedium2=0
 OutputEnabled12_OutputMedium3=0
@@ -382,7 +382,7 @@ PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 Configuration12_Name1=ColumnNameFormat
 Configuration12_Item1=CaptionAsName
 Configuration12_Name2=General
-Configuration12_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=True|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=C:\Users\klebe\Google Drive\Payload-XL\hw\library\Template QUOTE.xltx|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=950|FormHeight=661|SupplierProdQty=100|SupplierAutoQty=False|SupplierUseCachedPricing=True|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
+Configuration12_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=True|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=C:\Users\Public\Documents\Altium\AD19\Templates\Template QUOTE.xltx|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=950|FormHeight=661|SupplierProdQty=10|SupplierAutoQty=False|SupplierUseCachedPricing=True|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
 Configuration12_Name3=GroupOrder
 Configuration12_Item3=Fitted=True|Comment=True
 Configuration12_Name4=OutputConfigurationParameter1
@@ -397,80 +397,114 @@ Configuration12_Name8=VisibleOrder_Consolidated
 Configuration12_Item8=Line #=100|Comment=100|Description=100|Designator=100|Quantity=100|Manufacturer 1=116|Manufacturer Part Number 1=183|Manufacturer Lifecycle 1=159|Supplier 1=89|Supplier Part Number 1=155|Supplier Unit Price 1=139|Supplier Subtotal 1=133
 Configuration12_Name9=VisibleOrder_Flat
 Configuration12_Item9=Line #=100|Comment=100|Description=100|Designator=100|Manufacturer 1=116|Manufacturer Part Number 1=183|Manufacturer Lifecycle 1=159|Supplier 1=89|Supplier Part Number 1=155|Supplier Unit Price 1=139|Supplier Subtotal 1=133
-OutputType13=Schematic Print
-OutputName13=SCH
-OutputCategory13=Documentation
-OutputDocumentPath13=[Project Physical Documents]
-OutputVariantName13=
-OutputEnabled13=0
+OutputType13=BOM_PartType
+OutputName13=QUOTE 100
+OutputCategory13=Report
+OutputDocumentPath13=[ActiveBOM Document]
+OutputVariantName13=BT1A8
+OutputEnabled13=1
 OutputEnabled13_OutputMedium1=0
 OutputEnabled13_OutputMedium2=0
 OutputEnabled13_OutputMedium3=0
 OutputEnabled13_OutputMedium4=0
 OutputEnabled13_OutputMedium5=0
 OutputEnabled13_OutputMedium6=0
-OutputEnabled13_OutputMedium7=0
-OutputEnabled13_OutputMedium8=1
+OutputEnabled13_OutputMedium7=2
+OutputEnabled13_OutputMedium8=0
 OutputDefault13=0
 PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-Configuration13_Name1=OutputConfigurationParameter1
-Configuration13_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0
-OutputType14=Test Points
-OutputName14=Test Point Report
-OutputCategory14=Fabrication
-OutputDocumentPath14=
+Configuration13_Name1=ColumnNameFormat
+Configuration13_Item1=CaptionAsName
+Configuration13_Name2=General
+Configuration13_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=True|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=C:\Users\Public\Documents\Altium\AD19\Templates\Template QUOTE.xltx|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=950|FormHeight=661|SupplierProdQty=100|SupplierAutoQty=False|SupplierUseCachedPricing=True|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
+Configuration13_Name3=GroupOrder
+Configuration13_Item3=Fitted=True|Comment=True
+Configuration13_Name4=OutputConfigurationParameter1
+Configuration13_Item4=??
+Configuration13_Name5=SortOrder
+Configuration13_Item5=Designator=Up
+Configuration13_Name6=VisibleOrder
+Configuration13_Item6=Fitted=100|Comment=100|Description=100|Designator=100|Footprint=100|LibRef=100|Quantity=100|Supplier 1=100|Supplier Part Number 1=100|Supplier Stock 1=100|Supplier Unit Price 1=100|Manufacturer=100
+Configuration13_Name7=VisibleOrder_Base
+Configuration13_Item7=Line #=70|Comment=69|Description=95|Designator=94|Quantity=83|Manufacturer 1=116|Manufacturer Part Number 1=183|Manufacturer Lifecycle 1=159|Supplier 1=89|Supplier Part Number 1=155|Supplier Unit Price 1=139|Supplier Subtotal 1=133
+Configuration13_Name8=VisibleOrder_Consolidated
+Configuration13_Item8=Line #=100|Comment=100|Description=100|Designator=100|Quantity=100|Manufacturer 1=116|Manufacturer Part Number 1=183|Manufacturer Lifecycle 1=159|Supplier 1=89|Supplier Part Number 1=155|Supplier Unit Price 1=139|Supplier Subtotal 1=133
+Configuration13_Name9=VisibleOrder_Flat
+Configuration13_Item9=Line #=100|Comment=100|Description=100|Designator=100|Manufacturer 1=116|Manufacturer Part Number 1=183|Manufacturer Lifecycle 1=159|Supplier 1=89|Supplier Part Number 1=155|Supplier Unit Price 1=139|Supplier Subtotal 1=133
+OutputType14=Schematic Print
+OutputName14=SCH
+OutputCategory14=Documentation
+OutputDocumentPath14=[Project Physical Documents]
 OutputVariantName14=
 OutputEnabled14=0
 OutputEnabled14_OutputMedium1=0
-OutputEnabled14_OutputMedium2=4
+OutputEnabled14_OutputMedium2=0
 OutputEnabled14_OutputMedium3=0
 OutputEnabled14_OutputMedium4=0
 OutputEnabled14_OutputMedium5=0
 OutputEnabled14_OutputMedium6=0
 OutputEnabled14_OutputMedium7=0
-OutputEnabled14_OutputMedium8=0
+OutputEnabled14_OutputMedium8=1
 OutputDefault14=0
+PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration14_Name1=OutputConfigurationParameter1
-Configuration14_Item1=AdjacencyDistance=250000|GenerateCSVFormat=False|GenerateIPCFormat=True|GenerateSpreadSheetFormat=False|GenerateTextFormat=False|OriginPosition=Relative|OutlineLayer=56|OutputAdjancencies=False|OutputBoardOutline=False|OutputTraces=False|Record=TestPointView|ReportBottomLayerTestpoints=True|ReportTopLayerTestpoints=True|Units=Imperial
-OutputType15=BOM_PartType
-OutputName15=QUOTE 1000
-OutputCategory15=Report
-OutputDocumentPath15=[ActiveBOM Document]
-OutputVariantName15=BT1A8
+Configuration14_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0
+OutputType15=Test Points
+OutputName15=Test Point Report
+OutputCategory15=Fabrication
+OutputDocumentPath15=
+OutputVariantName15=
 OutputEnabled15=0
 OutputEnabled15_OutputMedium1=0
-OutputEnabled15_OutputMedium2=0
+OutputEnabled15_OutputMedium2=4
 OutputEnabled15_OutputMedium3=0
 OutputEnabled15_OutputMedium4=0
 OutputEnabled15_OutputMedium5=0
 OutputEnabled15_OutputMedium6=0
-OutputEnabled15_OutputMedium7=2
+OutputEnabled15_OutputMedium7=0
 OutputEnabled15_OutputMedium8=0
 OutputDefault15=0
-PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-Configuration15_Name1=ColumnNameFormat
-Configuration15_Item1=CaptionAsName
-Configuration15_Name2=General
-Configuration15_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=True|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=C:\Users\klebe\Google Drive\Payload-XL\hw\library\Template QUOTE.xltx|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=950|FormHeight=661|SupplierProdQty=1000|SupplierAutoQty=False|SupplierUseCachedPricing=True|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
-Configuration15_Name3=GroupOrder
-Configuration15_Item3=Fitted=True|Comment=True
-Configuration15_Name4=OutputConfigurationParameter1
-Configuration15_Item4=??
-Configuration15_Name5=SortOrder
-Configuration15_Item5=Designator=Up
-Configuration15_Name6=VisibleOrder
-Configuration15_Item6=Fitted=100|Comment=100|Description=100|Designator=100|Footprint=100|LibRef=100|Quantity=100|Supplier 1=100|Supplier Part Number 1=100|Supplier Stock 1=100|Supplier Unit Price 1=100|Manufacturer=100
-Configuration15_Name7=VisibleOrder_Base
-Configuration15_Item7=Line #=70|Comment=69|Description=95|Designator=94|Quantity=83|Manufacturer 1=116|Manufacturer Part Number 1=183|Manufacturer Lifecycle 1=159|Supplier 1=89|Supplier Part Number 1=155|Supplier Unit Price 1=139|Supplier Subtotal 1=133
-Configuration15_Name8=VisibleOrder_Consolidated
-Configuration15_Item8=Line #=100|Comment=100|Description=100|Designator=100|Quantity=100|Manufacturer 1=116|Manufacturer Part Number 1=183|Manufacturer Lifecycle 1=159|Supplier 1=89|Supplier Part Number 1=155|Supplier Unit Price 1=139|Supplier Subtotal 1=133
-Configuration15_Name9=VisibleOrder_Flat
-Configuration15_Item9=Line #=100|Comment=100|Description=100|Designator=100|Manufacturer 1=116|Manufacturer Part Number 1=183|Manufacturer Lifecycle 1=159|Supplier 1=89|Supplier Part Number 1=155|Supplier Unit Price 1=139|Supplier Subtotal 1=133
+Configuration15_Name1=OutputConfigurationParameter1
+Configuration15_Item1=AdjacencyDistance=250000|GenerateCSVFormat=False|GenerateIPCFormat=True|GenerateSpreadSheetFormat=False|GenerateTextFormat=False|OriginPosition=Relative|OutlineLayer=56|OutputAdjancencies=False|OutputBoardOutline=False|OutputTraces=False|Record=TestPointView|ReportBottomLayerTestpoints=True|ReportTopLayerTestpoints=True|Units=Imperial
+OutputType16=BOM_PartType
+OutputName16=QUOTE 1000
+OutputCategory16=Report
+OutputDocumentPath16=[ActiveBOM Document]
+OutputVariantName16=BT1A8
+OutputEnabled16=1
+OutputEnabled16_OutputMedium1=0
+OutputEnabled16_OutputMedium2=0
+OutputEnabled16_OutputMedium3=0
+OutputEnabled16_OutputMedium4=0
+OutputEnabled16_OutputMedium5=0
+OutputEnabled16_OutputMedium6=0
+OutputEnabled16_OutputMedium7=3
+OutputEnabled16_OutputMedium8=0
+OutputDefault16=0
+PageOptions16=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration16_Name1=ColumnNameFormat
+Configuration16_Item1=CaptionAsName
+Configuration16_Name2=General
+Configuration16_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=True|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=C:\Users\Public\Documents\Altium\AD19\Templates\Template QUOTE.xltx|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=950|FormHeight=661|SupplierProdQty=1000|SupplierAutoQty=False|SupplierUseCachedPricing=True|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
+Configuration16_Name3=GroupOrder
+Configuration16_Item3=Fitted=True|Comment=True
+Configuration16_Name4=OutputConfigurationParameter1
+Configuration16_Item4=??
+Configuration16_Name5=SortOrder
+Configuration16_Item5=Designator=Up
+Configuration16_Name6=VisibleOrder
+Configuration16_Item6=Fitted=100|Comment=100|Description=100|Designator=100|Footprint=100|LibRef=100|Quantity=100|Supplier 1=100|Supplier Part Number 1=100|Supplier Stock 1=100|Supplier Unit Price 1=100|Manufacturer=100
+Configuration16_Name7=VisibleOrder_Base
+Configuration16_Item7=Line #=70|Comment=69|Description=95|Designator=94|Quantity=83|Manufacturer 1=116|Manufacturer Part Number 1=183|Manufacturer Lifecycle 1=159|Supplier 1=89|Supplier Part Number 1=155|Supplier Unit Price 1=139|Supplier Subtotal 1=133
+Configuration16_Name8=VisibleOrder_Consolidated
+Configuration16_Item8=Line #=100|Comment=100|Description=100|Designator=100|Quantity=100|Manufacturer 1=116|Manufacturer Part Number 1=183|Manufacturer Lifecycle 1=159|Supplier 1=89|Supplier Part Number 1=155|Supplier Unit Price 1=139|Supplier Subtotal 1=133
+Configuration16_Name9=VisibleOrder_Flat
+Configuration16_Item9=Line #=100|Comment=100|Description=100|Designator=100|Manufacturer 1=116|Manufacturer Part Number 1=183|Manufacturer Lifecycle 1=159|Supplier 1=89|Supplier Part Number 1=155|Supplier Unit Price 1=139|Supplier Subtotal 1=133
 
 [PublishSettings]
-OutputFilePath2=C:\Users\klebe\OneDrive\Profissional\Projetos\_Altium_Templates\PCB_Cubesat_4L_Project_Template\Project Outputs\VariantName\
-ReleaseManaged2=0
-OutputBasePath2=Project Outputs\
+OutputFilePath2=C:\Users\klebe\Google Drive\Payload-XL\hw\Project Outputs for Payload XL\VariantName\
+ReleaseManaged2=1
+OutputBasePath2=Project Outputs for Payload XL
 OutputPathMedia2==VariantName
 OutputPathMediaValue2==VariantName
 OutputPathOutputer2=BOARD
@@ -481,9 +515,9 @@ OutputFileNameMulti2==OutputName
 UseOutputNameForMulti2=0
 OutputFileNameSpecial2=
 OpenOutput2=1
-OutputFilePath3=C:\Users\klebe\OneDrive\Profissional\Projetos\_Altium_Templates\PCB_Cubesat_4L_Project_Template\Project Outputs\VariantName\BOARD_PRINTS.PDF
-ReleaseManaged3=0
-OutputBasePath3=Project Outputs\
+OutputFilePath3=C:\Users\klebe\Google Drive\Payload-XL\hw\Project Outputs for Payload XL\VariantName\BOARD_PRINTS.PDF
+ReleaseManaged3=1
+OutputBasePath3=Project Outputs for Payload XL
 OutputPathMedia3==VariantName
 OutputPathMediaValue3==VariantName
 OutputPathOutputer3=[Output Type]
@@ -508,9 +542,9 @@ ShowComponentParameters3=1
 GlobalBookmarks3=0
 PDFACompliance3=Disabled
 PDFVersion3=Default
-OutputFilePath4=C:\Users\klebe\OneDrive\Profissional\Projetos\_Altium_Templates\PCB_Cubesat_4L_Project_Template\Project Outputs\VariantName\
-ReleaseManaged4=0
-OutputBasePath4=Project Outputs\
+OutputFilePath4=C:\Users\klebe\Google Drive\Payload-XL\hw\Project Outputs for Payload XL\VariantName\
+ReleaseManaged4=1
+OutputBasePath4=Project Outputs for Payload XL
 OutputPathMedia4==VariantName
 OutputPathMediaValue4==VariantName
 OutputPathOutputer4=ASSEMBLY
@@ -521,9 +555,9 @@ OutputFileNameMulti4==OutputName
 UseOutputNameForMulti4=0
 OutputFileNameSpecial4=
 OpenOutput4=1
-OutputFilePath5=C:\Users\klebe\OneDrive\Profissional\Projetos\_Altium_Templates\PCB_Cubesat_4L_Project_Template\Project Outputs\VariantName\
-ReleaseManaged5=0
-OutputBasePath5=Project Outputs\
+OutputFilePath5=C:\Users\klebe\Google Drive\Payload-XL\hw\Project Outputs for Payload XL\VariantName\
+ReleaseManaged5=1
+OutputBasePath5=Project Outputs for Payload XL
 OutputPathMedia5==VariantName
 OutputPathMediaValue5==VariantName
 OutputPathOutputer5=
@@ -548,12 +582,12 @@ ShowComponentParameters5=1
 GlobalBookmarks5=0
 PDFACompliance5=Disabled
 PDFVersion5=Default
-OutputFilePath6=C:\Users\klebe\OneDrive\Profissional\Projetos\_Altium_Templates\PCB_Cubesat_4L_Project_Template\Project Outputs\VariantName\
-ReleaseManaged6=0
-OutputBasePath6=Project Outputs\
+OutputFilePath6=C:\Users\klebe\Google Drive\Payload-XL\hw\Project Outputs for Payload XL\VariantName\
+ReleaseManaged6=1
+OutputBasePath6=Project Outputs for Payload XL
 OutputPathMedia6==VariantName
 OutputPathMediaValue6==VariantName
-OutputPathOutputer6=
+OutputPathOutputer6=[Output Type]
 OutputPathOutputerPrefix6=
 OutputPathOutputerValue6=ASSEMBLY
 OutputFileName6=
@@ -561,12 +595,12 @@ OutputFileNameMulti6=ASSEMBLY_BOM
 UseOutputNameForMulti6=0
 OutputFileNameSpecial6=
 OpenOutput6=1
-OutputFilePath7=C:\Users\klebe\OneDrive\Profissional\Projetos\_Altium_Templates\PCB_Cubesat_4L_Project_Template\Project Outputs\VariantName\
-ReleaseManaged7=0
-OutputBasePath7=Project Outputs\
+OutputFilePath7=C:\Users\klebe\Google Drive\Payload-XL\hw\Project Outputs for Payload XL\VariantName\
+ReleaseManaged7=1
+OutputBasePath7=Project Outputs for Payload XL
 OutputPathMedia7==VariantName
 OutputPathMediaValue7==VariantName
-OutputPathOutputer7=
+OutputPathOutputer7=[Output Type]
 OutputPathOutputerPrefix7=
 OutputPathOutputerValue7=
 OutputFileName7=
@@ -574,9 +608,9 @@ OutputFileNameMulti7=BOM MEM2 - mezzanine board - revXX
 UseOutputNameForMulti7=1
 OutputFileNameSpecial7=
 OpenOutput7=1
-OutputFilePath8=C:\Users\klebe\OneDrive\Profissional\Projetos\_Altium_Templates\PCB_Cubesat_4L_Project_Template\Project Outputs\VariantName\
-ReleaseManaged8=0
-OutputBasePath8=Project Outputs\
+OutputFilePath8=C:\Users\klebe\Google Drive\Payload-XL\hw\Project Outputs for Payload XL\VariantName\
+ReleaseManaged8=1
+OutputBasePath8=Project Outputs for Payload XL
 OutputPathMedia8==VariantName
 OutputPathMediaValue8==VariantName
 OutputPathOutputer8=
@@ -603,7 +637,7 @@ PDFACompliance8=Disabled
 PDFVersion8=Default
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=C:\Users\klebe\OneDrive\Profissional\Projetos\_Altium_Templates\PCB_Cubesat_4L_Project_Template\Project Outputs\VariantName\
+RelativeOutputPath2=C:\Users\klebe\Google Drive\Payload-XL\hw\Project Outputs for Payload XL\VariantName\
 OpenOutputs2=1
 AddToProject2=1
 TimestampFolder2=0
@@ -613,9 +647,9 @@ OpenGerberOutput2=1
 OpenNCDrillOutput2=1
 OpenIPCOutput2=1
 EnableReload2=1
-RelativeOutputPath3=C:\Users\klebe\OneDrive\Profissional\Projetos\_Altium_Templates\PCB_Cubesat_4L_Project_Template\Project Outputs\VariantName\BOARD_PRINTS.PDF
+RelativeOutputPath3=C:\Users\klebe\Google Drive\Payload-XL\hw\Project Outputs for Payload XL\VariantName\BOARD_PRINTS.PDF
 OpenOutputs3=1
-RelativeOutputPath4=C:\Users\klebe\OneDrive\Profissional\Projetos\_Altium_Templates\PCB_Cubesat_4L_Project_Template\Project Outputs\VariantName\
+RelativeOutputPath4=C:\Users\klebe\Google Drive\Payload-XL\hw\Project Outputs for Payload XL\VariantName\
 OpenOutputs4=1
 AddToProject4=1
 TimestampFolder4=0
@@ -625,9 +659,9 @@ OpenGerberOutput4=0
 OpenNCDrillOutput4=0
 OpenIPCOutput4=0
 EnableReload4=0
-RelativeOutputPath5=C:\Users\klebe\OneDrive\Profissional\Projetos\_Altium_Templates\PCB_Cubesat_4L_Project_Template\Project Outputs\VariantName\
+RelativeOutputPath5=C:\Users\klebe\Google Drive\Payload-XL\hw\Project Outputs for Payload XL\VariantName\
 OpenOutputs5=1
-RelativeOutputPath6=C:\Users\klebe\OneDrive\Profissional\Projetos\_Altium_Templates\PCB_Cubesat_4L_Project_Template\Project Outputs\VariantName\
+RelativeOutputPath6=C:\Users\klebe\Google Drive\Payload-XL\hw\Project Outputs for Payload XL\VariantName\
 OpenOutputs6=1
 AddToProject6=1
 TimestampFolder6=0
@@ -637,7 +671,7 @@ OpenGerberOutput6=0
 OpenNCDrillOutput6=0
 OpenIPCOutput6=0
 EnableReload6=0
-RelativeOutputPath7=C:\Users\klebe\OneDrive\Profissional\Projetos\_Altium_Templates\PCB_Cubesat_4L_Project_Template\Project Outputs\VariantName\
+RelativeOutputPath7=C:\Users\klebe\Google Drive\Payload-XL\hw\Project Outputs for Payload XL\VariantName\
 OpenOutputs7=1
 AddToProject7=1
 TimestampFolder7=0
@@ -647,6 +681,6 @@ OpenGerberOutput7=0
 OpenNCDrillOutput7=0
 OpenIPCOutput7=0
 EnableReload7=0
-RelativeOutputPath8=C:\Users\klebe\OneDrive\Profissional\Projetos\_Altium_Templates\PCB_Cubesat_4L_Project_Template\Project Outputs\VariantName\
+RelativeOutputPath8=C:\Users\klebe\Google Drive\Payload-XL\hw\Project Outputs for Payload XL\VariantName\
 OpenOutputs8=1
 
