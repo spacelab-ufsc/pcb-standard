@@ -1,5 +1,4 @@
 <h1 align="center">
-	<br>
 	PCB GUIDELINES
 	<br>
 </h1>
@@ -29,7 +28,6 @@
   	<a href="#templates">Templates</a> •
   	<a href="#design-rules">Design Rules</a> •
   	<a href="#output-files">Output files</a> •
-  	<a href="#rules-of-thumb">Rules of thumb</a> •
   	<a href="#standards">Standards</a> •
   	<a href="#project-repositories">Project Repositories</a> •
   	<a href="#documentation">Documentation</a>
@@ -90,16 +88,14 @@ For space segment projects, try to use automotive grade components (if not possi
 - Remember to use the [design resources](https://github.com/spacelab-ufsc/pcb-guidelines/tree/master/pcb_resources) for accessing the theoretical references, tips, and rules of thumb.
 - Remember to check the Cezar’s thesis and book for space application PCBs, avaliable in: [10.1109/TLA.2020.9085278](https://ieeexplore.ieee.org/document/9085278), Printed Circuit Board Design Methodology for Embedded Systems Targeting Space Applications.
 
+#### Rules of thumb
+- Under definition! (Things that we adopted with no proper justification, but must be done)
+
 
 
 ## Output files
 - The output files must contain: Gerbers (all relevant layers), NC Drills, Pick and Place, complete schematic sheets (including the electrical layout layers), draftmans (top, bottom, and sides), parasolid/step, bill of materials, and 3D render images without background.
 - Altium: Use the [Kleber’s output job file](https://github.com/spacelab-ufsc/pcb-guidelines/tree/master/pcb_templates/output_job_file.outjob) to export all the fabrication and assembly files.
-
-
-
-## Rules of thumb
-- Under definition! (Things that we adopted with no proper justification, but must be done)
 
 
 
@@ -116,7 +112,7 @@ For space segment projects, try to use automotive grade components (if not possi
 ## Project Repositories
 
 #### Organization
-- Inside the module repository in GitHub, it is going to be provided with 3 main folders: hardware, firmware, and doc. (It could be expanded depending on the project, mechanical, fpga, scripts, libs, and others).
+- The project repository in GitHub is going to be provided with 3 main folders: hardware, firmware, and doc. (It could be expanded depending on the project, mechanical, fpga, scripts, libs, and others).
 - Inside the hardware folder, the hardware project is going to be added following this directory structure: (use lowercase words separated by underscores)
 
 ```
@@ -124,7 +120,8 @@ For space segment projects, try to use automotive grade components (if not possi
 		../hardware_architecture
 		../power_architecture
 		../interfaces_pinout
-		../others
+		../[logos_files]
+		../[others_files]
 	hardware/libraries/
 		../schematics_library
 		../footprints_library
@@ -164,5 +161,3 @@ For space segment projects, try to use automotive grade components (if not possi
 ## Documentation
 - Documentation is mandatory and important to be written during the development process, when the implementation details and decisions are still remembered. Use the [documentation spacelab template](https://github.com/spacelab-ufsc/doc-template) that should be used within the documentation folder.
 - The documentation topics and required depth change dramatically over different projects, then for properly documenting the new project, use the previous examples to guide the process. The [obdh2 doc](https://github.com/spacelab-ufsc/obdh2/tree/master/doc/build) is a good first example for module/payload projects.
-
-
