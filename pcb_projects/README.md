@@ -6,21 +6,6 @@
 <h4 align="center">Examples available for creating new project, avoiding starting from scratch.</h4>
 
 <p align="center">
-    <a href="">
-		<img src="https://img.shields.io/badge/contributor-Kleber-green?style=for-the-badge">
-	</a>
-    <a href="">
-		<img src="https://img.shields.io/badge/contributor-Yan-blue?style=for-the-badge">
-	</a>
-	<a href="">
-		<img src="https://img.shields.io/badge/contributor-Andre-yellow?style=for-the-badge">
-	</a>
-	<a href="">
-		<img src="https://img.shields.io/badge/contributor-Gabriel-lightgray?style=for-the-badge">
-	</a>
-</p>
-
-<p align="center">
   	<a href="#overview">Overview</a> •
   	<a href="#how-to-start">How to start</a> •
   	<a href="#examples">Examples</a> •
