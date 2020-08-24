@@ -3,17 +3,17 @@
 	<br>
 </h1>
 
-<h4 align="center">Guidelines for the SpaceLab hardware projects.</h4>
+<h4 align="center">Guidelines for the development of SpaceLab hardware projects.</h4>
 
 <p align="center">
-    <a href="https://github.com/spacelab-ufsc/pcb-standard/tree/master/pcb_libraries">
+    <a href="https://github.com/spacelab-ufsc/altium-library">
 		<img src="https://img.shields.io/badge/pcb-libraries-green?style=for-the-badge">
 	</a>
     <a href="https://github.com/spacelab-ufsc/pcb-standard/tree/master/pcb_projects">
 		<img src="https://img.shields.io/badge/pcb-projects-blue?style=for-the-badge">
 	</a>
-	<a href="https://github.com/spacelab-ufsc/pcb-standard/tree/master/pcb_resources">
-		<img src="https://img.shields.io/badge/pcb-resources-9cf?style=for-the-badge">
+	<a href="https://github.com/spacelab-ufsc/pcb-standard/tree/master/pcb_references">
+		<img src="https://img.shields.io/badge/pcb-references-9cf?style=for-the-badge">
 	</a>
 	<a href="https://github.com/spacelab-ufsc/pcb-standard/tree/master/pcb_templates">
 		<img src="https://img.shields.io/badge/pcb-templates-yellow?style=for-the-badge">
@@ -36,15 +36,11 @@
 ## Overview
 This guideline aims only to give general and basic directions for the PCB layout for the SpaceLab and does not present complete and extensive standards. 
 
-
-
 ## Templates
 - Use the schematics and layout template provided in: Altium and KiCad [templates](https://github.com/spacelab-ufsc/pcb-standard/tree/master/pcb_projects).
 - The first schematic sheet must contain: simplified hardware architecture (block diagram), power architecture, version control indication, project name, contributors, and licensing.
 - The other schematic sheets must contain: a header containing essential info, the circuits separated by category/functionality, simple description or relevant commentaries in non-obvious design decisions/signals/architecture/integration.
 - All the elements must be embedded into the project or available in the folder (i.e., they do not need external linking to work properly).
-
-
 
 ## Design Rules
 
@@ -62,8 +58,6 @@ For space segment projects, try to use automotive grade components (if not possi
 - Remember to perform a tedious and comprehensive review after doing all the previous items and finishing the circuits.
 - If it is beneficial, make variants for fitted and not fitted components (test models, flight models or any other variant).
 - If it is beneficial, use harness signals to create block diagrams and multi signal interfaces within altium features (it helps to perform design checks).
-
-
 
 #### Layout
 - Remember to check the linking with the schematics and keep the design rules updated.
@@ -83,13 +77,9 @@ For space segment projects, try to use automotive grade components (if not possi
 #### Rules of thumb
 - Under definition! (Things that we adopted with no proper justification, but must be done)
 
-
-
 ## Output files
 - The output files must contain: Gerbers (all relevant layers), NC Drills, Pick and Place, complete schematic sheets (including the electrical layout layers), draftmans (top, bottom, and sides), parasolid/step, bill of materials, and 3D render images without background.
 - Altium: Use the [Kleber’s output job file](https://github.com/spacelab-ufsc/pcb-standard/tree/master/pcb_templates/output_job_file.outjob) to export all the fabrication and assembly files.
-
-
 
 ## Project Repositories
 
@@ -137,8 +127,6 @@ For space segment projects, try to use automotive grade components (if not possi
 - Since there is no direct tracking of changes of the hardware files, try to commit relevant changes(not too frequently exposing each little detail, but exposing major changes), such as: adding the subsystem Y placement, updating component X routing, removing unnecessary labels.
 - The commit names must be compliant with the following standard: “key_folder: secundary_folder: scope: subsystem (if applicable): Adding/Removing/Updating… content… #issue_number (if applicable). close #issue_number (if applicable)“. Example: “hardware: sources: schematics: buffers: Adding the preliminary IC and capacitors placement #45 #57. close #56”.
 - It is recommended to keep track of major changes and objectives through the use of issues.
-
-
 
 ## Documentation
 - Documentation is mandatory and important to be written during the development process, when the implementation details and decisions are still remembered. Use the [documentation spacelab template](https://github.com/spacelab-ufsc/doc-template) that should be used within the documentation folder.

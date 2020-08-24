@@ -10,9 +10,7 @@
   	<a href="#dfmdfa">DFM/DFA</a> •
   	<a href="#emiemc">EMI/EMC</a> •
   	<a href="#high-speed">High-Speed</a> •
-  	<a href="#rf">RF</a> •
-  	<a href="#acknowledges">Acknowledges</a> •
-  	<a href="#notes">Notes</a>
+  	<a href="#rf">RF</a>
 </p>
 
 ## Overview
@@ -28,7 +26,3 @@
 ## High Speed
 
 ## RF
-
-## Acknowledges
-
-## Notes

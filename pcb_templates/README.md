@@ -8,8 +8,7 @@
 <p align="center">
   	<a href="#overview">Overview</a> •
   	<a href="#cad-tools">CAD Tools</a> •
-  	<a href="#files">Files</a> •
-  	<a href="#notes">Notes</a>
+  	<a href="#files">Files</a>
 </p>
 
 
@@ -18,5 +17,3 @@
 ## CAD Tools
 
 ## Files
-
-## Notes

@@ -3,7 +3,7 @@
 	<br>
 </h1>
 
-<h4 align="center">Standards used in the SpaceLab projects.</h4>
+<h4 align="center">Internal and external standards used in the SpaceLab hardware designs (PC-104, space design patterns, others).</h4>
 
 <p align="center">
   	<a href="#overview">Overview</a> •

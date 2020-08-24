@@ -8,8 +8,7 @@
 <p align="center">
   	<a href="#overview">Overview</a> •
   	<a href="#how-to-start">How to start</a> •
-  	<a href="#examples">Examples</a> •
-  	<a href="#acknowledges">Acknowledges</a>
+  	<a href="#examples">Examples</a>
 </p>
 
 
@@ -25,5 +24,3 @@
 #### Daughterboard module 2 layers (GomSpace Compliant)
 #### Daughterboard module 2 layers (OBDH2 Compliant)
 #### Daughterboard module 6 layers (OBDH2 Compliant)
-
-## Notes
