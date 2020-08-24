@@ -19,8 +19,12 @@
 		<img src="https://img.shields.io/badge/pcb-templates-yellow?style=for-the-badge">
 	</a>
 	<a href="https://github.com/spacelab-ufsc/pcb-standard/tree/master/pcb_standards">
-		<img src="https://img.shields.io/badge/pcb-standards-lightgray?style=for-the-badge">
+		<img src="https://img.shields.io/badge/pcb-standards-red?style=for-the-badge">
 	</a>
+	<a href="https://github.com/spacelab-ufsc/pcb-standard/tree/master/pcb_guidelines">
+		<img src="https://img.shields.io/badge/pcb-guidelines-lightgray?style=for-the-badge">
+	</a>
+
 </p>
 
 <p align="center">
@@ -45,7 +49,7 @@ This guideline aims only to give general and basic directions for the PCB layout
 ## Design Rules
 
 #### Libraries
-- Create a dedicated file for schematic and layout libraries in each project using the Altium and KiCad [libraries](https://github.com/spacelab-ufsc/pcb-standard/tree/master/pcb_libraries) as source or import from a reliable website (manufacturer provider, distributor, [Kleber’s repository](blank), [3D Content Central](https://www.3dcontentcentral.com/), [Ultra Librarian](https://www.ultralibrarian.com/), [SnapEDA](https://www.snapeda.com/) or [GrabCAD](https://grabcad.com/)).
+- Create a dedicated file for schematic and layout libraries in each project using the Altium and KiCad [libraries](https://github.com/spacelab-ufsc/altium-library) as source or import from a reliable website (manufacturer provider, distributor, [3D Content Central](https://www.3dcontentcentral.com/), [Ultra Librarian](https://www.ultralibrarian.com/), [SnapEDA](https://www.snapeda.com/) or [GrabCAD](https://grabcad.com/)).
 - Create a dedicated library for the critical 3D rendering of the components used for further measurements if necessary.
 - Remember to review the footprints after importing (electrical and mechanical layers, 3D bodies, essential parameters, adequate schematic symbols, footprints, linking of the components, and overall compliance with the laboratory’s standard).
 - Do not use obsolete components for new designs and update them in older projects if possible (use the “search component” feature in Altium if available).
@@ -54,7 +58,7 @@ For space segment projects, try to use automotive grade components (if not possi
 #### Schematics
 - In the schematic circuits are mandatory: values, designators, partnumber in case of ICs, subsystem names, readable connections, and meanifull signal names.
 - Remember to add mechanical entities (screws, fiducials, holes, attachments, others) to enhance the linking between schematics and layout.
-- Remember to  be compliant with the checklist provided in: [Kleber’s checklist](https://github.com/spacelab-ufsc/pcb-standard/blob/master/pcb_resources/pcb_design_checklist.xlsx)
+- Remember to  be compliant with the checklist provided in: [Kleber’s checklist](https://github.com/spacelab-ufsc/pcb-standard/blob/master/pcb_references/pcb_design_checklist.xlsx)
 - Remember to perform a tedious and comprehensive review after doing all the previous items and finishing the circuits.
 - If it is beneficial, make variants for fitted and not fitted components (test models, flight models or any other variant).
 - If it is beneficial, use harness signals to create block diagrams and multi signal interfaces within altium features (it helps to perform design checks).
@@ -71,7 +75,7 @@ For space segment projects, try to use automotive grade components (if not possi
 - It is highly recommended to do routing in preferential directions to mitigate crosstalk, improve organization and ease the routing itself.
 - Avoid ground loops in the design generated when multiple ground access points in different locations are provided for the same component, circuit, or the entire board (it is recommended uninterrupted ground polygons/planes).
 - Remember to give proper and secure space for mechanical attachments and elements within the PCB and with other modules in the system.
-- Remember to use the [design resources](https://github.com/spacelab-ufsc/pcb-standard/tree/master/pcb_resources) for accessing the theoretical references, tips, and rules of thumb.
+- Remember to use the [design resources](https://github.com/spacelab-ufsc/pcb-standard/tree/master/pcb_references) for accessing the theoretical references, tips, and rules of thumb.
 - Remember to check the Cezar’s thesis and book for space application PCBs, avaliable in: [10.1109/TLA.2020.9085278](https://ieeexplore.ieee.org/document/9085278), Printed Circuit Board Design Methodology for Embedded Systems Targeting Space Applications.
 
 #### Rules of thumb

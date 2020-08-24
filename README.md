@@ -6,23 +6,23 @@
 <h4 align="center">Guidelines, references, standards, and templates required for the SpaceLab hardware projects.</h4>
 
 <p align="center">
-    <a href="https://github.com/spacelab-ufsc/pcb-standard/tree/master/pcb_libraries">
-		<img src="https://img.shields.io/badge/pcb-libraries-green?style=for-the-badge">
-	</a>
     <a href="https://github.com/spacelab-ufsc/pcb-standard/tree/master/pcb_projects">
-		<img src="https://img.shields.io/badge/pcb-projects-blue?style=for-the-badge">
+		<img src="https://img.shields.io/badge/pcb-projects-green?style=for-the-badge">
 	</a>
 	<a href="https://github.com/spacelab-ufsc/pcb-standard/tree/master/pcb_references">
-		<img src="https://img.shields.io/badge/pcb-references-9cf?style=for-the-badge">
+		<img src="https://img.shields.io/badge/pcb-references-blue?style=for-the-badge">
 	</a>
 	<a href="https://github.com/spacelab-ufsc/pcb-standard/tree/master/pcb_templates">
-		<img src="https://img.shields.io/badge/pcb-templates-yellow?style=for-the-badge">
+		<img src="https://img.shields.io/badge/pcb-templates-9cf?style=for-the-badge">
 	</a>
 	<a href="https://github.com/spacelab-ufsc/pcb-standard/tree/master/pcb_standards">
-		<img src="https://img.shields.io/badge/pcb-standards-red?style=for-the-badge">
+		<img src="https://img.shields.io/badge/pcb-standards-yellow?style=for-the-badge">
 	</a>
 	<a href="https://github.com/spacelab-ufsc/pcb-standard/tree/master/pcb_guidelines">
-		<img src="https://img.shields.io/badge/pcb-guidelines-lightblue?style=for-the-badge">
+		<img src="https://img.shields.io/badge/pcb-guidelines-red?style=for-the-badge">
+	</a>
+	<a href="https://github.com/spacelab-ufsc/altium-library">
+		<img src="https://img.shields.io/badge/pcb-libraries-lightblue?style=for-the-badge">
 	</a>
 	<a href="">
 		<img src="https://img.shields.io/badge/open%20source-hardware-lightgray?style=for-the-badge">
