@@ -7,8 +7,8 @@
 
 <p align="center">
   	<a href="#overview">Overview</a> •
-  	<a href="#design-for-manufacturing/design-for-assembly">DFM/DFA</a> •
-  	<a href="#electromagnetic-interference/electromagnetic-compatibility">EMI/EMC</a> •
+  	<a href="#design-for-manufacturing-and-design-for-assembly">DFM/DFA</a> •
+  	<a href="#electromagnetic-interference-and-electromagnetic-compatibility">EMI/EMC</a> •
   	<a href="#high-speed">High-Speed</a> •
   	<a href="#rf">RF</a>
   	<a href="#notes">Notes</a>
@@ -16,7 +16,7 @@
 
 ## Overview
 
-## Design For Manufacturing / Design For Assembly
+## Design For Manufacturing and Design For Assembly
 
 - [Surface Mount Assembly Process](http://www.surfacemountprocess.com/)
 - [PCB Surface Finishes](http://www.epectec.com/downloads/Article-PCB-Surface-Finishes-Advantages-and-Disadvantages.pdf)
@@ -26,7 +26,7 @@
 - [Space Qualified PCB Design Techniques](https://www.ipcindia.org.in/wp-content/uploads/2019/02/ECAD-based-PCB-Design-flow-and-technique_DJ_Bhatt.pdf)
 
 
-## Electromagnetic Interference / Electromagnetic Compatibility
+## Electromagnetic Interference and Electromagnetic Compatibility
 
 - [PCB Layout for EMC](https://learnemc.com/pcb-layout)
 - [Power Supply Layout and EMI](http://cds.linear.com/docs/en/application-note/an139f.pdf)

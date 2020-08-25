@@ -55,7 +55,7 @@ Other repositories:
 
 ## Acknowledges
 
-This standard is the result of the combination of experience in hardware development of different SpaceLab members. In special, the major contributions are addressed to [Kleber Gouveia](https://github.com/krgouveia), [Cezar Rigo](https://github.com/c-a-rigo), and [Sara Vega](https://github.com/saravega). Other members helped in the process, mainly in the compilation of the knowledge in this repository format, such as: [Andre Mattos](https://github.com/andrempmattos) and [Yan Azeredo](https://github.com/YanAzer).
+This standard is the result of the combination of experience in hardware development of different SpaceLab members. In special, the major contributions are addressed to [Kleber Gouveia](https://github.com/krgouveia), [Cezar Rigo](https://github.com/c-a-rigo), and [Sara Vega](https://github.com/saravega). Other members helped in the process, mainly in the compilation of the knowledge in this repository format: [Andre Mattos](https://github.com/andrempmattos), [Yan Azeredo](https://github.com/YanAzer), and [Gabriel Marcelino](https://github.com/mgm8).
 
 ## Notes
 
