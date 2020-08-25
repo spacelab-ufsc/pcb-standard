@@ -39,7 +39,7 @@
 
 ## Overview
 
-The SpaceLab standard defines general rules for the PCB design, development process, documentation, and organization. It is necessary to follow these guidelines in new projects for compliance with older SpaceLab modules and hardware developments.
+The SpaceLab standard defines general rules for the PCB design, development process, documentation, and organization. It is necessary to follow these guidelines in new projects for compliance with older SpaceLab modules and hardware developments. Besides this requirement, the guidelines and standards herein included increase the quality of the design and documentation, which are essential for a successuful project and an educational oriented platform.
 
 ## Repositories
 
@@ -55,4 +55,8 @@ Other repositories:
 
 ## Acknowledges
 
+This standard is the result of the combination of experience in hardware development of different SpaceLab members. In special, the major contributions are addressed to [Kleber Gouveia](https://github.com/krgouveia), [Cezar Rigo](https://github.com/c-a-rigo), and [Sara Vega](https://github.com/saravega). Other members helped in the process, mainly in the compilation of the knowledge in this repository format, such as: [Andre Mattos](https://github.com/andrempmattos) and [Yan Azeredo](https://github.com/YanAzer).
+
 ## Notes
+
+This standard is a working in progress, then remember to check with the writers the current state and feel free to provide suggestion for improvement. These requests should be made using the [issues](https://github.com/spacelab-ufsc/pcb-standard/issues) feature. 
