@@ -10,7 +10,8 @@
   	<a href="#design-for-manufacturing-and-design-for-assembly">DFM/DFA</a> •
   	<a href="#electromagnetic-interference-and-electromagnetic-compatibility">EMI/EMC</a> •
   	<a href="#high-speed">High-Speed</a> •
-  	<a href="#rf">RF</a>
+  	<a href="#rf">RF</a> •
+	<a href="#linux-based-boards">LINUX Boards</a> •
   	<a href="#notes">Notes</a>
 </p>
 
@@ -54,6 +55,9 @@
 - [Overview about WLAN physical layer](http://download.ni.com/evaluation/rf/Introduction_to_WLAN_Testing.pdf)
 - [Quadrature Amplitude Modulation (QAM)](https://wirelesspi.com/quadrature-amplitude-modulation-qam/)
 - [A Beginner’s Guide to OFDM](https://wirelesspi.com/a-beginners-guide-to-ofdm/)
+
+## LINUX based boards
+- [Dev kits development and analysis](https://jaycarlson.net/embedded-linux/#1602628480903-d6715b70-af87)
 
 ## Notes
 
