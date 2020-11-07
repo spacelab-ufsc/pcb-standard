@@ -31,7 +31,7 @@
 
 - [PCB Layout for EMC](https://learnemc.com/pcb-layout)
 - [Power Supply Layout and EMI](http://cds.linear.com/docs/en/application-note/an139f.pdf)
-- Electromagnetic compatibility testing explained by Ian Williams, Texas Instruments - part I, part II, part III and part IV.
+- Electromagnetic compatibility testing explained by Ian Williams, Texas Instruments - [part I](https://e2e.ti.com/blogs_/archives/b/precisionhub/archive/2014/05/22/part-i-get-certified-not-certi-fried-electromagnetic-compatibility-testing-explained), [part II](https://e2e.ti.com/blogs_/archives/b/precisionhub/archive/2014/08/26/part-ii-get-certified-not-certi-fried-electromagnetic-compatibility-testing-explained), [part III](https://e2e.ti.com/blogs_/archives/b/precisionhub/archive/2014/12/02/part-iii-get-certified-not-certi-fried-electromagnetic-compatibility-testing-explained) and [part IV](https://e2e.ti.com/blogs_/archives/b/precisionhub/archive/2015/02/06/get-certified-not-certi-fried-electromagnetic-compatibility-testing-explained-part-4).
 - [Fundamentals of EMC Design by Keith Armstrong](http://www.interferencetechnology.com/wp-content/uploads/2012/04/Armstrong_DDG12.pdf)
 - [Spectra of Digital Clock Signals](https://incompliancemag.com/article/spectra-of-digital-clock-signals/)
 
