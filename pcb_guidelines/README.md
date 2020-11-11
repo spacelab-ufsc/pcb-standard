@@ -41,7 +41,7 @@
 This guideline aims only to give general and basic directions for the PCB layout for the SpaceLab and does not present complete and extensive standards. 
 
 ## Templates
-- Use the schematics and layout template provided in: Altium and KiCad [templates](https://github.com/spacelab-ufsc/pcb-standard/tree/master/pcb_projects).
+- Use the schematics and layout templates provided in: Altium and KiCad [templates](https://github.com/spacelab-ufsc/pcb-standard/tree/master/pcb_projects).
 - The first schematic sheet must contain: simplified hardware architecture (block diagram), power architecture, version control indication, project name, contributors, and licensing.
 - The other schematic sheets must contain: a header containing essential info, the circuits separated by category/functionality, simple description or relevant commentaries in non-obvious design decisions/signals/architecture/integration.
 - All the elements must be embedded into the project or available in the folder (i.e., they do not need external linking to work properly).
@@ -82,7 +82,7 @@ For space segment projects, try to use automotive grade components (if not possi
 - Under definition! (Things that we adopted with no proper justification, but must be done)
 
 ## Output files
-- The output files must contain: Gerbers (all relevant layers), NC Drills, Pick and Place, complete schematic sheets (including the electrical layout layers), draftmans (top, bottom, and sides), parasolid/step, bill of materials, and 3D render images without background.
+- The output files must contain: Gerbers (all relevant layers), NC Drills, Pick and Place, complete schematic sheets (including the electrical layout layers), draftsman, parasolid/step, bill of materials, and 3D render images without background.
 - Altium: Use the [Kleber’s output job file](https://github.com/spacelab-ufsc/pcb-standard/tree/master/pcb_templates/output_job_file.outjob) to export all the fabrication and assembly files.
 
 ## Project Repositories
@@ -106,6 +106,7 @@ For space segment projects, try to use automotive grade components (if not possi
 		../assembly_step/
 		../assembly_odb/  (optional)
 		../assembly_pick_place/
+		../board_draftsman/  (optional)
 		../board_drc/
 		../board_gerbers/
 		../board_ncdrills/
